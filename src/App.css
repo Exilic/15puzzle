@@ -1,38 +1,121 @@
-.App {
+body {
+  margin: auto;
+  width: 400px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 1.5em;
+  color: #8e8e8e;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
   color: white;
+  border: none;
+  background-color: #8e8e8e;
+  padding: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+#info {
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#result {
+  margin-top: 22px;
+  font-size: 2em;
+  color: #8e8e8e;
+}
+
+#gamePlayground {
+  margin-top: 65px;
+  line-height: 100px;
+  font-size: 2em;
+  color: white;
+  display: grid;
+  grid-template: 100px 100px 100px 100px / 100px 100px 100px 100px;
+}
+
+#gamePlayground > * {
+  border: 2px solid white;
+  background: #02c2fe;
+}
+
+.tile1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.tile2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.tile3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.tile4 {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.tile5 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.tile6 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.tile7 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.tile8 {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+.tile9 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.tile10 {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.tile11 {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+.tile12 {
+  grid-row: 3;
+  grid-column: 4;
+}
+
+.tile13 {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.tile14 {
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.tile15 {
+  grid-row: 4;
+  grid-column: 3;
+}
+
+.tile16 {
+  grid-row: 4;
+  grid-column: 4;
 }
